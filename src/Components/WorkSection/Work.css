@@ -1,0 +1,69 @@
+.work-main-text {
+    line-height: 5rem;
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .card-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect on the entire card */
+  .card-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+  }
+  
+  .card-container img,
+  .card-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Smoother transition */
+  }
+  
+  .card-container:hover img,
+  .card-container:hover video {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Ensuring smooth transition when hovering over images */
+  .card-container img {
+    opacity: 1;
+  }
+  
+  .card-container:hover img {
+    opacity: 0; /* Fade image out on hover */
+  }
+  
+  .card-container video {
+    opacity: 0; /* Initially hide video */
+  }
+  
+  .card-container:hover video {
+    opacity: 1; /* Show video on hover */
+  }
+  
+  .main-container-wedd {
+    height: 100vh;
+    padding: 2rem;
+  }
+  
+  .card-work {
+    height: 100vh;
+  }
+  
+  .spacer {
+    padding: 2rem;
+  }
+  
+  .work-main-text-sub{
+    text-align: center;
+  }

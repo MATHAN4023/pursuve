@@ -1,0 +1,82 @@
+body {
+  overflow-x: hidden;
+}
+.Hero-Text-main {
+  font-size: 5em;
+  line-height: 1.25;
+  font-weight: 500;
+}
+.Hero-Text-second {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.hero-video-main {
+  border-radius: 50px;
+}
+.hero-video-main1 {
+  border-radius: 50px;
+  max-width: 100%;
+}
+.Hero-image-main {
+  max-width: 200px;
+}
+
+.Appbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Sapce-Bar {
+  padding: 2rem;
+}
+.AboutUs {
+  /* width: 100vw; */
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+.About-content-text {
+  display: flex;
+  flex-direction: row;
+}
+.text-main {
+  text-align: center;
+  font-size: 5em;
+  line-height: 1.25;
+  font-weight: 500;
+}
+.main-hero-space,
+.Hero-Text-second,
+.hero-video-main {
+  margin-bottom: 50px; /* Adjust the value as needed */
+}
+
+.About-content-Container {
+  font-size: x-large;
+  line-height: 1.25;
+  font-weight: 450;
+  text-align: start;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.About-content-Container p {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.Work{
+  /* width: 100vw; */
+  height: 100vh;
+}
+.work-content-Container{
+  /* height: 0vh; */
+}
+
+
