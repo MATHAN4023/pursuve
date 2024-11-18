@@ -90,6 +90,7 @@ function Work() {
           <h1 className="work-main-text">WEDDIN</h1>
         </Col>
       </Row>
+      <div className="spacer"></div>
       <Row className="heading-work-sub">
         <Col>
           <h1 className="work-main-text-sub">
